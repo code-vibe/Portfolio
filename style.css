@@ -24,6 +24,9 @@ html {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	padding: 2rem;
+	background: linear-gradient(to right bottom,
+		#dfa60c, #9d0191);
 }
 
 p {
