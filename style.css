@@ -27,12 +27,12 @@ body {
 	padding: 2rem;
 	background: linear-gradient(to right bottom,
 		#dfa60c, #9d0191);
+	background-repeat: no repeat;
 	height: 100vh;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-repeat: no repeat;
 }
 
 p {
@@ -49,3 +49,15 @@ img {
 	margin: 0 auto;
 }
 
+
+/* CUSTOM CSS */
+/* CUSTOM CSS */
+
+
+.all {
+	width:  90%;
+	max-width: 110rem;
+	display: flex;
+	justify-content: center;
+
+}
