@@ -70,3 +70,10 @@ nav ul {
 	list-style: none;
 	width: 7rem;
 }
+nav ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+}
