@@ -80,3 +80,8 @@ nav ul li {
 nav ul li:not(:last-child) {
 	border-bottom: 1px solid #eee;
 }
+nav li i {
+	font-size: 1.6rem;
+	color:  var(--black);
+	padding-bottom: 3px;
+}
