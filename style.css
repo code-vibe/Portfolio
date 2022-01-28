@@ -64,7 +64,7 @@ img {
 nav {
 	background-color: #fff;
 	margin: 2rem 1rem 0 0;
-	border-radius: ;
+	border-radius: ; 
 }
 nav ul {
 	list-style: none;
@@ -76,4 +76,7 @@ nav ul li {
 	justify-content: center;
 	align-items: center;
 	padding: 1rem 0;
+}
+nav ul li:not(:last-child) {
+	border-bottom: 1px solid #eee;
 }
