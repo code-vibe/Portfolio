@@ -169,4 +169,29 @@ span.effect {
 	color:  var(--color-primary);
 }
 
+.profile-cta {
+	position: absolute;
+	bottom: zero;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid rgba(0,0.0,0.2);
+	padding: 2rem;
+}
+
+.profile-cta a {
+	font-size: 1.4 rem;
+	font-weight: 600;
+	color: var(--black);
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: var(ll .3s);
+}
+
+.profile-cta a:hover {
+	color: var(--color-primary);
+
+}
+
+
 
