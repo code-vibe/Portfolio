@@ -138,7 +138,7 @@ nav li a: hover {
 	color: var(--black);
 }
 
-.profile-content p.text.effect {
+.profile-content p.text-effect {
 	font-size: 1.6rem;
 	font-size: 600;
 	color: var(--color-primary);
@@ -147,13 +147,26 @@ nav li a: hover {
 
 span.effect {
 	border-right: 8px solid;
-	animation: caret;
+	animation: caret 1s steps(1);
+	infinite;
 }
 
 @keyframes caret {
 	50% {
 		border-color: transparent;
 	}
+}
+
+.profile-icons a {
+	font-size: 2rem;
+	margin: 5px;
+	color: var(--black);
+	text-decoration: none;
+	transition: all .3s;
+}
+
+.profile-icons a:hover {
+	color:  var(--color-primary);
 }
 
 
