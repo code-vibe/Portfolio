@@ -112,4 +112,14 @@ nav li a: hover {
 	display: flex;
 }
 
+.profile {
+	width: 30%;
+	min-width: 40rem;
+	height: 80vh;
+	border-radius: 3px;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+
 
