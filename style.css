@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 :root {
 	--white:  #fff;
@@ -96,4 +96,13 @@ nav li a {
 	font-weight: 600;
 	color: var(--black);
 }
+
+nav li a: hover {
+	color: var(--color-primary);
+}
+
+.active > * {
+	color: var(--color-primary);
+}
+
 
