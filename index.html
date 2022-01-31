@@ -1,265 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>PortFolio</title>
-	<script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin= "anonymous"></script>
-	<link rel="stylesheet"  href="style.css">
-	<link rel="stylesheet"  href="media-query.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-- PortFolio</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
+    <div class="all">
+        <header>
+            <div class="container">
+                <nav id="nav-ul">
+                    <ul class="nav-ul">
+                        <li class="nav-li active">
+                            <i class="fas fa-user"></i>
+                            <a href="#about" class="link" data-filter="content-about">About</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-poll-h"></i>
+                            <a href="#resume" class="link" data-filter="content-resume">Resume</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-pencil-alt"></i>
+                            <a href="#portfolio" class="link" data-filter="content-portfolio">PortFolio</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fab fa-stack-exchange"></i>
+                            <a href="#blog" class="link" data-filter="content-blog">Blog</a> 
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#contact" class="link" data-filter="content-contact">Contact</a> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-	<div class="all">
-		<header>
-			<div class="container">
-				<nav>
-					<ul class = "nav-ul">
-						<li class="nav-li">
-							 <i class="fas fa-user"></i>
-							<a href="#about" class="link" 
-							data-filter="content-about">About</a>
-						</li>
-					</ul> 
-					<ul class = "nav-ul">
-						<li class="nav-li ">
-							<i class="fas fa-poll-h"></i>
-							<a href="#resume" class="link"
-							data-filter="content-resume">Resume</a>
-						</li>
-					</ul> 
-					<ul class = "nav-ul">
-						<li class="nav-li ">
-							<i class="fas fa-pencil-alt"></i>
-							<a href="#portfolio" class="link"
-							data-filter="content-portfolio">Portfolio</a>
-						</li>
-					</ul> 
-					<ul class = "nav-ul">
-						<li class="nav-li ">
-							<i class="fas fa-stack-exchange"></i>
-							<a href="#blog" class="link"
-							data-filter="content-blog">Blog</a>
-						</li>
-					</ul> 
-					<ul class = "nav-ul">
-						<li class="nav-li ">
-							<i class="fas fa-envelope"></i>
-							<a href="#contact" class="link"
-							data-filter="content-contact">Contact</a>
-						</li>
-					</ul> 
-				</nav>
+        <!-- CONTENT SECTION -->
+        <section>
+            <div class="container main-container">
+                <!-- PROFILE SECTION -->
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/man2.jpg" alt="man">
+                    </div>
+                    <div class="profile-content">
+                        <h2>Sam-Oladapo Ebenezer</h2>
+                        <p class="text-effect">Software Engineer</p>
+                        <div class="profile-icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-stack-overflow"></i>
+                            </a>
+                        </div>
+                        <div class="profile-cta my-border">
+                            <div><a href="#">GitHub</a></div>
+                            <div><a href="#">Contact Me</a></div>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- MAIN CONTENT SECTION -->
+                <div class="content-all">
+                    <!-- CONTENT ABOUT -->
+                    <div class="content content-about" id="about">
+                        <div class="content-header">
+                            <h2><span>About</span></h2>
+                        </div>
+                        <div class="content-details">
+                            <img src="images/man-small (1).png" alt="profile">
+                            <p><span class="text">Hello! I'm</span><span class="name"> Sam-Oladapo Ebenezer</span></p>
+                            <p>
+                                Software Engineer from Lagos, Nigeria. I have rich experience in Sysytem Design, Software Architecture and writing scalable code.
+                            </p>
+                        </div>
+                    </div>
 
-			</div>
-			
-		</header>
+                    <!-- CONTENT RESUME -->
+                    <div class="content content-resume" id="resume">
+                        <div class="content-header">
+                            <h2><span>Resume</span> </h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="resume">
+                                <div class="my-resume education">
+                                    <div class="title">
+                                        <h3>Education</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2014-2019</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    University Of Benin
+                                                </p>
+                                                <p class="year-desc">
+                                                    Bachelor Of Engineering
+                                                    Electrical/Electronics Engineering
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-resume experience">
+                                    <div class="title">
+                                        <h3>Experience</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2019-2021</p>
+                                            <div class="year-details">
+                                                <p class="year-title">
+                                                    Enterprise Engineer
+                                                </p>
+                                                <p class="year-desc">
+                                                    
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ADD A LINE -->
+                            <div class="content-line"></div>
+                            <!-- MY SKILLS -->
+                            <div class="my-skills">
+                                <div class="title">
+                                    <h3>My Skills</h3>
+                                </div>
+                                <div class="skills">
+                                    <div class="skill">
+                                        <img src="images/html.png" alt="">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/css logo.png" alt="">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/js.jpg" alt="">
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/python.svg" alt="">
+                                        <p>python</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/nodejs.png" alt="">
+                                        <p>NodeJS</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/git.png" alt="">
+                                        <p>GitHub</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/vue.png" alt="">
+                                        <p>Vue</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="images/angular.png" alt="">
+                                        <p>Angular</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-		<!-- CONTENT SECTION -->
-		<section>
-			<div class="container main-container">
-				<!-- Profile Secion -->
-				<div class="profile">
+                    <!-- CONTENT PORTFOLIO -->
+                    <div class="content content-portfolio" id="portfolio">
+                        <div class="content-header">
+                            <h2><span>My</span> PortFolio</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="portfolio">
+                                <div class="portfolio-item">
+                                   <img src="images/portfolio.png" alt=""> 
+                                   <p class="portfolio-title">
+                                       Web Design Project
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?
+                                   </p>
+                                   <a href="#">&rarr; View Project</a>
+                                </div>
+                                <div class="portfolio-item">
+                                   <img src="images/portfolio1.png" alt=""> 
+                                   <p class="portfolio-title">
+                                       Mobile App Design
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?
+                                   </p>
+                                   <a href="#">&rarr; View Project</a>
+                                </div>
+                                <div class="portfolio-item">
+                                   <img src="images/portfolio2.png" alt=""> 
+                                   <p class="portfolio-title">
+                                       Login UI Project
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?
+                                   </p>
+                                   <a href="#">&rarr; View Project</a>
+                                </div>
+                                <div class="portfolio-item">
+                                   <img src="images/portfolio3.png" alt=""> 
+                                   <p class="portfolio-title">
+                                       Password Generator
+                                   </p>
+                                   <p class="portfolio-desc">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?
+                                   </p>
+                                   <a href="#">&rarr; View Project</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
 
-					<div class="profile-image">
-							<img src="#" alt="man">
+                    <!-- CONTENT BLOG -->
+                    <div class="content content-blog" id="blog">
+                        <div class="content-header">
+                            <h2><span>My</span> Blog</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="blog">
+                                <div class="blog-post">
+                                    <img src="images/blog.png" alt="">
+                                    <p class="post-title">How to get Started With Programming</p>
+                                    <p class="post-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?
+                                    </p>
+                                    <a href="#">&rarr; Read Post</a>
+                                </div>
+                                <div class="blog-post">
+                                    <img src="images/blog1.png" alt="">
+                                    <p class="post-title">How to become a better Programmer</p>
+                                    <p class="post-desc">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quod?
+                                    </p>
+                                    <a href="#">&rarr; Read Post</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-						</div>
-							
-						<div class="profile-content">
-							
-							<h2>SAM-OLADAPO EBENEZER</h2>
+                    <!-- CONTENT CONTACT -->
+                    <div class="content content-contact" id="contact">
+                        <div class="content-header">
+                            <h2><span>Contact</span> Me</h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="contact">
+                                <div class="contact-details">
+                                    <p class="title">Address</p>
+                                    <p>Lagos, Nigeria</p>
+                                    <img src="images/white-line.PNG" alt="">
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Email</p>
+                                    <p>mrsamoladapo@gmail.com</p>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Freelance</p>
+                                    <p>Available</p>
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+                            <!-- CONTACT FORM -->
+                            <div class="contact-form">
+                                <div class="title">
+                                    <h3>Contact Form</h3>
+                                </div>
+                                <form action="">
+                                    <div class="form-input">
+                                        <input type="text" placeholder="Name">
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <textarea cols="30" rows="10"></textarea>
+                                    <input type="submit" value="Send Message">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
 
-							<p class="text-effect">Software Engineer</p>
+                </div>
 
-							<div class="profile-icons">
+            </div>
+        </section>
+    </div>
 
-								<a href="#">
-								 	<i class="fab fa-twitter"></i>
-								</a>
-								<a href="#">
-								 	<i class="fab fa-github"></i>
-								</a>
-								<a href="#">
-								   <i class="fab fa-facebook"></i>
-								</a>
-								<a href="#">
-								 	<i class="fab fa-linkedin"></i>
-								</a>
-								<a href="#">
-								    <i class="fab fa-stack-overflow"></i>
-								</a>
-								</div>
-
-								<div class="profile-cta my border">
-									<div> 
-										<a href="#">Github</a>  
-									</div>
-									<div> 
-										<a href="#">Contact Me</a>  
-									</div>
-									
-								</div>
-						</div>
-
-				</div>
-
-				<!-- CONTENT SECTION -->
-
-			<div class="content-all">
-
-				<!-- CONTENT ABOUT -->
-				<div class="content.content-about" id= "about">
-					<div class="content-header">
-						<h2><span>About</span> Me</h2>
-					</div>
-					<div class="content-details">
-						<img src="#" alt="profile">
-						<p><span class="text"> Hello! I'm </span> <span class="name">Sam-Oladapo Ebenezer</span>
-							Software Enginer from Lagos, Nigeria. 
-						</p>
-					</div>
-				</div>
-
-				<!-- CONTENT RESUME -->
-				<div class="content.content-resume" id= "resume">
-					<div class="content-header">
-						<h2><span>My</span> Resume</h2>
-					</div>
-					<div class="content-details">
-						<div class="resume">
-							<div class="my-resume education">
-							<div class="title">
-								<h3>Education</h3>
-							</div>
-							<div class="details">
-								<div class="specific-details">
-									<p class="year"> 2018-2020</p>
-									<div class="year-details">
-										<p class="year-title">
-											University of Benin
-										</p>
-										<p class="year-desc">
-											B.Eng Electrical/Electronics Engineering
-										</p>
-									</div>
-								</div>
-							</div>
-							</div>
-
-							<div class="my-resume experience">
-							<div class="title">
-								<h3>Experience</h3>
-							</div>
-							<div class="details">
-								<div class="specific-details">
-									<p class="year"> 2018-2020</p>
-									<div class="year-details">
-										<p class="year-title">
-											FrontEnd Developer
-										</p>
-										<p class="year-desc">
-											Built front high end designs
-										</p>
-									</div>
-								</div>
-							</div>
-							</div>
-						</div>
-						<!-- ADD A LINE -->
-						<div class="content-line"></div>
-
-						<!-- MY SKILLS -->
-						<div class="my skills">
-							<div class="title">
-								<h3>My Skills</h3>
-							</div>
-							<div class="skills">
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>HTML</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>CSS</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>JavaScript</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>React.js</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>Python</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>Java</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>Kotlin</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>Git</p>
-								</div>
-								<div class="skill">
-									<img src="#" alt=""> <!-- add image later -->
-									<p>NodeJs</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- CONTENT PORTFOLIO -->
-				<div class="content.content-portfolio" id= "portfolio">
-					<div class="content-header">
-						<h2><span>My</span> Portfolio</h2>
-					</div>
-					<div class="content-details">
-						
-					</div>
-					</div>
-				
-
-				<!-- CONTENT BLOG -->
-				<div class="content.content-blog" id= "blog">
-					<div class="content-header">
-						<h2><span>My</span> Blog</h2>
-					</div>
-					<div class="content-details">
-						
-					</div>
-				</div>
-
-				<!-- CONTENT CONTACT -->
-				<div class="content.content-contact" id= "contact">
-					<div class="content-header">
-						<h2><span>My</span> Contact</h2>
-					</div>
-					<div class="content-details">
-						
-					</div>
-				</div>
-
-				
-
-
-
-			</div>
-					
-
-			</div>
-		</section>
-
-	</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
